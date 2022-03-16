@@ -1,6 +1,6 @@
 ## Laravel Permissions
 
-Bash script to setup permissions for Laravel projects.
+Bash script to set up permissions for Laravel projects.
 
 ### Installation
 
