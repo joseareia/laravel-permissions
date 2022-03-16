@@ -28,7 +28,7 @@ $ laravel-permissions
 $ laravel-permissions -p /some/random/directory
 ```
 
-It is possible to activate the flag `-w` which will change the permissions as webserver as owner of the project. Make sure you pass the `user` along side with the flag to specify the user of your remote machine.
+It is possible to activate the flag `-w` which will change the permissions as webserver as the owner of the project. Make sure you pass the `user` along side with the flag to specify the user of your remote machine.
 
 If any doubts, just run `$ laravel-permissions -h` for some brief help.
 
