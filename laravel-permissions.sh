@@ -45,6 +45,12 @@ done
 
 shift $(($OPTIND - 1))
 
+if [ ! -d "$path" ]; then
+    echo -e "The following directory does not exist: $path"
+    exit_abnormal >&2
+    exit 1
+fi
+
 if [ ! -z "$wflag" ]; then
     if [ ! -z "$pflag" ]; then
         sudo chown -R www-data:www-data $path
