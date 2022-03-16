@@ -45,7 +45,7 @@ done
 
 shift $(($OPTIND - 1))
 
-if [ ! -d "$path" ]; then
+if [ ! -z "$pflag" ] && [ ! -d "$path" ]; then
     echo -e "The following directory does not exist: $path"
     exit_abnormal >&2
     exit 1
