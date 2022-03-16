@@ -23,6 +23,7 @@ While executing the script you can pass a directory of your Laravel project alon
 ```shell
 // Without any arguments
 $ laravel-permissions
+
 // With -p flag followed by the path
 $ laravel-permissions -p /some/random/directory
 ```
@@ -30,3 +31,7 @@ $ laravel-permissions -p /some/random/directory
 It is possible to activate the flag `-w` which will change the permissions as webserver as owner of the project. Make sure you pass the `user` along side with the flag to specify the user of your remote machine.
 
 If any doubts, just run `$ laravel-permissions -h` for some brief help.
+
+### License
+
+This project is under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
